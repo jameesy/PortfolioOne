@@ -9,8 +9,8 @@
     <title>James Bedford &mdash; Countryside Coder</title>
 
 
-    <link rel="stylesheet" href="Assets/style.css">
-    <script type="text/javascript" src="Assets/particles.min.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/particles.min.js"></script>
 
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,500" rel="stylesheet">
@@ -21,7 +21,7 @@
     <div class="flexbox">
         <header class="section-intro bgdark vertical-center">
 
-            <div id="particles-js" style="position:absolute; z-index:-1; width: 100%; height: 100%;"></div>
+            <div id="particles-js"></div>
             <!--Particles.js placeholder. Do not move!!-->
 
             <div class="container">
@@ -58,7 +58,7 @@
         <ul class="work-list" data-sr="wait .5s">
             <li class="work-list-item js-project-id aquabaits">
                 <a href="https://www.behance.net/gallery/61993043/Aquabaits" class="work-link vertical-center">
-                    <div>
+                    <div class="portfolioinfo">
                         <h2>Aquabaits</h2>
                         <p class="subheader headline">Website & Branding</p>
                         <span class="link-pseudo">View project</span>
@@ -67,7 +67,7 @@
             </li>
             <li class="work-list-item js-project-id boyandbird">
                 <a href="https://www.behance.net/gallery/60418247/Boy-and-Bird-Logo" class="work-link vertical-center">
-                    <div>
+                    <div class="portfolioinfo">
                         <h2>Boy and Bird</h2>
                         <p class="subheader headline">Company Logo</p>
                         <span class="link-pseudo">View project</span>
@@ -76,7 +76,7 @@
             </li>
             <li class="work-list-item js-project-id beckywestall">
                 <a href="https://www.behance.net/gallery/59638587/Photography-Portfolio-Web-Design" class="work-link vertical-center">
-                    <div>
+                    <div class="portfolioinfo">
                         <h2>Becky Westall</h2>
                         <p class="subheader headline">Website</p>
                         <span class="link-pseudo">View project</span>
@@ -85,7 +85,7 @@
             </li>
             <li class="work-list-item js-project-id berties">
                 <a href="https://www.behance.net/gallery/61992737/Berties" class="work-link vertical-center">
-                    <div>
+                    <div class="portfolioinfo">
                         <h2>Berties</h2>
                         <p class="subheader headline">Website & Branding</p>
                         <span class="link-pseudo">View project</span>
@@ -94,7 +94,7 @@
             </li>
             <li class="work-list-item js-project-id pixelart">
                 <a href="https://github.com/JABedford/Pixel-Art-Maker" class="work-link vertical-center">
-                    <div>
+                    <div class="portfolioinfo">
                         <h2>Pixel Art Maker</h2>
                         <p class="subheader headline">Web Application</p>
                         <span class="link-pseudo">View project</span>
@@ -103,7 +103,7 @@
             </li>
             <li class="work-list-item js-project-id halfwaystud">
                 <a href="https://www.halfwaystud.com" class="work-link vertical-center">
-                    <div>
+                    <div class="portfolioinfo">
                         <h2>Halfway Stud</h2>
                         <p class="subheader headline">Web Design</p>
                         <span class="link-pseudo">View project</span>
@@ -118,7 +118,7 @@
     <section id="about" class="section-about">
         <img class="meimage" src="http://i67.tinypic.com/xm0rc7.png" alt="me" style="height:100%;">
         <div class="container">
-            <h1 class="headline"> About Me</h1>
+            <h2 class="headline"> About Me</h2>
             <div class="text">
                 <p>My name is James, and I am a twenty something year old Web Developer and Designer from the countryside of
                     Berkshire in UK. My passions outside of web development are photography and the great outdoors. I have
@@ -189,9 +189,9 @@
     <!--Contact section-->
     <section id="connect" class="section-connect bgdark">
         <div class="container">
-            <h1 class="headline">I am always looking for new opportunities and projects to get involved with. Get in touch:</h1>
+            <h2 class="headline">I am always looking for new opportunities and projects to get involved with. Get in touch:</h2>
             <a href="mailto:james.bedford1991@gmail.com" class="button" data-ga-event>Email</a>
-            <a href="assets/cv 22022018.docx" rel="nofollow" target="_blank" class="button" data-ga-event>Download my CV</a>
+            <a href="assets/newCV.pdf" rel="nofollow" target="_blank" class="button" data-ga-event>Download my CV</a>
             <a href="https://www.behance.net/jabedford" rel="nofollow" target="_blank" class="button" data-ga-event>Behance</a>
             <a href="https://medium.com/@jabedford" rel="nofollow" target="_blank" class="button" data-ga-event>Medium</a>
             <a href="https://www.linkedin.com/in/jamesabedford/" rel="nofollow" target="_blank" class="button" data-ga-event>LinkedIn</a>
@@ -206,123 +206,11 @@
             Created with code. And farm tools.
         </small>
     </footer>
-    </div>
 
 
     <!--Scripts and JSON to run particles-->
-    <script src="Assets/script.js" async></script>
-    <script type="text/javascript">
-        particlesJS("particles-js", {
-            "particles": {
-                "number": {
-                    "value": 120,
-                    "density": {
-                        "enable": true,
-                        "value_area": 833.451405615796
-                    }
-                },
-                "color": {
-                    "value": "#fff118"
-                },
-                "shape": {
-                    "type": "circle",
-                    "stroke": {
-                        "width": 0,
-                        "color": "#000000"
-                    },
-                    "polygon": {
-                        "nb_sides": 6
-                    },
-                    "image": {
-                        "src": "img/github.svg",
-                        "width": 100,
-                        "height": 100
-                    }
-                },
-                "opacity": {
-                    "value": 1,
-                    "random": true,
-                    "anim": {
-                        "enable": true,
-                        "speed": 2,
-                        "opacity_min": 0,
-                        "sync": false
-                    }
-                },
-                "size": {
-                    "value": 3,
-                    "random": true,
-                    "anim": {
-                        "enable": false,
-                        "speed": 4,
-                        "size_min": 0.3,
-                        "sync": false
-                    }
-                },
-                "line_linked": {
-                    "enable": false,
-                    "distance": 150,
-                    "color": "#ffffff",
-                    "opacity": 0.4,
-                    "width": 1
-                },
-                "move": {
-                    "enable": true,
-                    "speed": 1,
-                    "direction": "none",
-                    "random": true,
-                    "straight": false,
-                    "out_mode": "out",
-                    "bounce": false,
-                    "attract": {
-                        "enable": false,
-                        "rotateX": 600,
-                        "rotateY": 600
-                    }
-                }
-            },
-            "interactivity": {
-                "detect_on": "canvas",
-                "events": {
-                    "onhover": {
-                        "enable": true,
-                        "mode": "bubble"
-                    },
-                    "onclick": {
-                        "enable": true,
-                        "mode": "repulse"
-                    },
-                    "resize": true
-                },
-                "modes": {
-                    "grab": {
-                        "distance": 400,
-                        "line_linked": {
-                            "opacity": 1
-                        }
-                    },
-                    "bubble": {
-                        "distance": 250,
-                        "size": 0,
-                        "duration": 2,
-                        "opacity": 0,
-                        "speed": 3
-                    },
-                    "repulse": {
-                        "distance": 400,
-                        "duration": 0.4
-                    },
-                    "push": {
-                        "particles_nb": 4
-                    },
-                    "remove": {
-                        "particles_nb": 2
-                    }
-                }
-            },
-            "retina_detect": true
-        });
-    </script>
+    <script src="assets/script.js" async></script>
+    <script src="assets/particles.json"></script>
 </body>
 
 </html>
